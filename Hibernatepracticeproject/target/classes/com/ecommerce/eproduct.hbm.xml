@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+        SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+        <hibernate-mapping>
+        <class name="com.ecommerce.eproduct" table="eproduct">       
+        
+        <id name="productid" column="productid">
+       <generator class="increment"/>
+        </id>
+        <property name="productname" length="20"></property>
+        <property name="price" ></property>
+        </class>   
+        
+        </hibernate-mapping>
+        
